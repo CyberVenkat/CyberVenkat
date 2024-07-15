@@ -11,9 +11,12 @@ public class SingleDimensionalArray {
 
 	public static void main(String[] args) {
 		//Declaring array 
+			
 		//approach1 := already know fixed values and can't add more in future
 		
 		int a [] = new int [5];
+	//	int [] a = new int [5];
+		
 		
 		a[0]=100;
 		a[1]=200;
@@ -35,7 +38,25 @@ public class SingleDimensionalArray {
 		
 		System.out.println(a[4]); //here 4 is an index
 		
-		//read multiple value from an array
+		//reading all the value from an array using normal for loop
+		
+		for (int i=0;i<a.length;i++)   // i<=4   i<5  i<=a.length-1  i<a.length
+		{
+			System.out.println(a[i]); // 100 200 300 400 500
+		}
+		// using enhanced for loop or for each loop
+		
+		for (int x:a)
+		{
+			System.out.println(x);
+		}
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
