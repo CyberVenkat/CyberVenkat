@@ -1,6 +1,6 @@
 package day7;
 
-public class SearchingElementInArray {
+public class SearchingElementInArray {    //Linear search
 
 	public static void main(String[] args) {
 		int a [] = new int [5];
