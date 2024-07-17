@@ -23,7 +23,7 @@ public class TakingMultipleInputsfromKeyboard {
 		
 		System.out.println("i am " + name + " and i am " + age + " years old");
 		
-		System.out.println("Enter unknown value : ");
+		System.out.println("Enter any value : ");
 		Object value = sc.next();
 		System.out.println(value);
 		
